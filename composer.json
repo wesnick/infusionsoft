@@ -1,0 +1,32 @@
+{
+    "name": "wesnick/infusionsoft",
+    "description": "Infusionsoft API client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wesley O. Nichols",
+            "email": "wesley.o.nichols@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/wesnick/php-class-generator"
+        }
+    ],
+
+    "require": {
+        "lstrojny/fxmlrpc": "0.8.3"
+    },
+    "require-dev": {
+        "symfony/console": "~2.3",
+        "kzykhys/php-class-generator": "dev-imports",
+        "fzaninotto/faker": "master-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Wesnick\\": "src/"
+        }
+    }
+}
