@@ -33,6 +33,6 @@ class ProductCategoryAssign extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ProductId' => 'int', 'ProductCategoryId' => 'int');
+    protected static $propertyMap = array('Id' => 'int', 'ProductId' => 'int', 'ProductCategoryId' => 'int');
 
 }

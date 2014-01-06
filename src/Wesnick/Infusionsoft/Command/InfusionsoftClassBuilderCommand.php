@@ -177,7 +177,7 @@ class InfusionsoftClassBuilderCommand extends Command
         $pb = new PropertyBuilder();
         $pb->setName('propertyMap');
         $pb->setType('array');
-        $pb->setVisibility('protected');
+        $pb->setVisibility('protected static');
         $pb->setDefault('array(' . implode(", ", $propertyMap) . ')');
         $classBuilder->addProperty($pb);
 

@@ -146,6 +146,6 @@ class Product extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ProductName' => 'string', 'ProductPrice' => 'float', 'Sku' => 'string', 'ShortDescription' => 'string', 'Taxable' => 'string', 'CountryTaxable' => 'string', 'StateTaxable' => 'string', 'CityTaxable' => 'string', 'Weight' => 'float', 'IsPackage' => 'string', 'NeedsDigitalDelivery' => 'string', 'Description' => 'string', 'HideInStore' => 'string', 'Status' => 'string', 'TopHTML' => 'string', 'BottomHTML' => 'string', 'ShippingTime' => 'string', 'LargeImage' => 'string', 'InventoryNotifiee' => 'string', 'InventoryLimit' => 'string', 'Shippable' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'ProductName' => 'string', 'ProductPrice' => 'float', 'Sku' => 'string', 'ShortDescription' => 'string', 'Taxable' => 'string', 'CountryTaxable' => 'string', 'StateTaxable' => 'string', 'CityTaxable' => 'string', 'Weight' => 'float', 'IsPackage' => 'string', 'NeedsDigitalDelivery' => 'string', 'Description' => 'string', 'HideInStore' => 'string', 'Status' => 'string', 'TopHTML' => 'string', 'BottomHTML' => 'string', 'ShippingTime' => 'string', 'LargeImage' => 'string', 'InventoryNotifiee' => 'string', 'InventoryLimit' => 'string', 'Shippable' => 'string');
 
 }

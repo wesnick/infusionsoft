@@ -152,6 +152,6 @@ class Ticket extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'IssueId' => 'int', 'ContactId' => 'int', 'UserId' => 'int', 'DevId' => 'int', 'TicketTitle' => 'string', 'TicketApplication' => 'string', 'TicketCategory' => 'int', 'TicketTypeId' => 'int', 'Summary' => 'string', 'Stage' => 'int', 'Priority' => 'string', 'Ordering' => 'float', 'DateCreated' => '\DateTime', 'CreatedBy' => 'int', 'LastUpdated' => '\DateTime', 'LastUpdatedBy' => 'int', 'CloseDate' => '\DateTime', 'FolowUpDate' => '\DateTime', 'TargetCompletionDate' => '\DateTime', 'DateInStage' => '\DateTime', 'TimeSpent' => 'float', 'HasCustomerCalled' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'IssueId' => 'int', 'ContactId' => 'int', 'UserId' => 'int', 'DevId' => 'int', 'TicketTitle' => 'string', 'TicketApplication' => 'string', 'TicketCategory' => 'int', 'TicketTypeId' => 'int', 'Summary' => 'string', 'Stage' => 'int', 'Priority' => 'string', 'Ordering' => 'float', 'DateCreated' => '\DateTime', 'CreatedBy' => 'int', 'LastUpdated' => '\DateTime', 'LastUpdatedBy' => 'int', 'CloseDate' => '\DateTime', 'FolowUpDate' => '\DateTime', 'TargetCompletionDate' => '\DateTime', 'DateInStage' => '\DateTime', 'TimeSpent' => 'float', 'HasCustomerCalled' => 'string');
 
 }

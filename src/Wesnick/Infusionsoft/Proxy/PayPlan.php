@@ -61,6 +61,6 @@ class PayPlan extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'InvoiceId' => 'Invoice', 'DateDue' => '\DateTime', 'AmtDue' => 'float', 'Type' => 'string', 'InitDate' => '\DateTime', 'StartDate' => '\DateTime', 'FirstPayAmt' => 'float');
+    protected static $propertyMap = array('Id' => 'int', 'InvoiceId' => 'Invoice', 'DateDue' => '\DateTime', 'AmtDue' => 'float', 'Type' => 'string', 'InitDate' => '\DateTime', 'StartDate' => '\DateTime', 'FirstPayAmt' => 'float');
 
 }

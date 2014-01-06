@@ -32,6 +32,6 @@ class ProductInterestBundle extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'BundleName' => 'string', 'Description' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'BundleName' => 'string', 'Description' => 'string');
 
 }

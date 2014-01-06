@@ -41,6 +41,6 @@ class Campaignee extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('CampaignId' => 'Campaign', 'Status' => 'string', 'Campaign' => 'string', 'ContactId' => 'Contact');
+    protected static $propertyMap = array('CampaignId' => 'Campaign', 'Status' => 'string', 'Campaign' => 'string', 'ContactId' => 'Contact');
 
 }

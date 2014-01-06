@@ -86,6 +86,6 @@ class MtgLead extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'DateAppraisalOrdered' => '\DateTime', 'DateAppraisalDone' => '\DateTime', 'DateAppraisalReceived' => '\DateTime', 'DateTitleOrdered' => '\DateTime', 'DateTitleReceived' => '\DateTime', 'DateRateLocked' => '\DateTime', 'DateRateLockExpires' => '\DateTime', 'CreditReportDate' => '\DateTime', 'ApplicationDate' => '\DateTime', 'ActualCloseDate' => '\DateTime', 'FundingDate' => '\DateTime');
+    protected static $propertyMap = array('Id' => 'int', 'DateAppraisalOrdered' => '\DateTime', 'DateAppraisalDone' => '\DateTime', 'DateAppraisalReceived' => '\DateTime', 'DateTitleOrdered' => '\DateTime', 'DateTitleReceived' => '\DateTime', 'DateRateLocked' => '\DateTime', 'DateRateLockExpires' => '\DateTime', 'CreditReportDate' => '\DateTime', 'ApplicationDate' => '\DateTime', 'ActualCloseDate' => '\DateTime', 'FundingDate' => '\DateTime');
 
 }

@@ -67,6 +67,6 @@ class Referral extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ContactId' => 'int', 'AffiliateId' => 'int', 'DateSet' => '\DateTime', 'DateExpires' => '\DateTime', 'IPAddress' => 'string', 'Source' => 'string', 'Info' => 'string', 'Type' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'ContactId' => 'int', 'AffiliateId' => 'int', 'DateSet' => '\DateTime', 'DateExpires' => '\DateTime', 'IPAddress' => 'string', 'Source' => 'string', 'Info' => 'string', 'Type' => 'string');
 
 }

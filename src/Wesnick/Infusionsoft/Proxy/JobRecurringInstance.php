@@ -67,6 +67,6 @@ class JobRecurringInstance extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'RecurringId' => 'RecurringOrder', 'InvoiceItemId' => 'InvoiceItem', 'Status' => 'string', 'AutoCharge' => 'string', 'StartDate' => '\DateTime', 'EndDate' => '\DateTime', 'DateCreated' => '\DateTime', 'Description' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'RecurringId' => 'RecurringOrder', 'InvoiceItemId' => 'InvoiceItem', 'Status' => 'string', 'AutoCharge' => 'string', 'StartDate' => '\DateTime', 'EndDate' => '\DateTime', 'DateCreated' => '\DateTime', 'Description' => 'string');
 
 }

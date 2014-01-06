@@ -37,6 +37,6 @@ class GroupAssign extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'UserId' => 'int', 'GroupId' => 'int', 'Admin' => 'int');
+    protected static $propertyMap = array('Id' => 'int', 'UserId' => 'int', 'GroupId' => 'int', 'Admin' => 'int');
 
 }

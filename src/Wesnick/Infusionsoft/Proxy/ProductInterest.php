@@ -56,6 +56,6 @@ class ProductInterest extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ObjectId' => 'int', 'ObjType' => 'string', 'ProductId' => 'int', 'ProductType' => 'string', 'Qty' => 'string', 'DiscountPercent' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'ObjectId' => 'int', 'ObjType' => 'string', 'ProductId' => 'int', 'ProductType' => 'string', 'Qty' => 'string', 'DiscountPercent' => 'string');
 
 }

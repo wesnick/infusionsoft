@@ -43,6 +43,6 @@ class ProductCategory extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'CategoryDisplayName' => 'string', 'CategoryImage' => 'string', 'CategoryOrder' => 'string', 'ParentId' => 'int');
+    protected static $propertyMap = array('Id' => 'int', 'CategoryDisplayName' => 'string', 'CategoryImage' => 'string', 'CategoryOrder' => 'string', 'ParentId' => 'int');
 
 }

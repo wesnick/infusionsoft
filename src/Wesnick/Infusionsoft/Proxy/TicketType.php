@@ -31,6 +31,6 @@ class TicketType extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'CategoryId' => 'int', 'Label' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'CategoryId' => 'int', 'Label' => 'string');
 
 }

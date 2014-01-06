@@ -43,5 +43,5 @@ class InfusionsoftClass extends BaseObject
      */
     public $testProperty;
 
-    protected $propertyMap = array('testProperty' => 'string');
+    protected static $propertyMap = array('testProperty' => 'string');
 }

@@ -61,6 +61,6 @@ class InvoiceItem extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'InvoiceId' => 'Invoice', 'OrderItemId' => 'int', 'InvoiceAmt' => 'float', 'Discount' => 'float', 'DateCreated' => '\DateTime', 'Description' => 'string', 'CommissionStatus' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'InvoiceId' => 'Invoice', 'OrderItemId' => 'int', 'InvoiceAmt' => 'float', 'Discount' => 'float', 'DateCreated' => '\DateTime', 'Description' => 'string', 'CommissionStatus' => 'string');
 
 }

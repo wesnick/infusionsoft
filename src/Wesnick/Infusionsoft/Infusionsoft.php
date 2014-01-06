@@ -37,7 +37,7 @@ class Infusionsoft
     protected static $proxyMap = array(
 //        'affiliate'         => 'AffiliateService',
 //        'affiliate_program' => 'AffiliateProgramService',
-        'contact'           => 'ContactService',
+        'ContactService'           => "Wesnick\\Infusionsoft\\Service\\ContactService",
 //        'data'              => 'DataService',
 //        'discount'          => 'DiscountService',
 //        'email'             => 'EmailService',
@@ -97,7 +97,7 @@ class Infusionsoft
      */
     public function getContactService()
     {
-        return $this->getService('contact');
+        return $this->getService('ContactService');
     }
 
 
@@ -109,7 +109,7 @@ class Infusionsoft
 
         if (!isset($this->proxies[$serviceName])) {
             $class = static::$proxyMap[$serviceName];
-            $this->proxies[$serviceName] = new $class($this->client, '.', $class);
+            $this->proxies[$serviceName] = new $class($this->client, '.', $serviceName);
         }
 
         return $this->proxies[$serviceName];

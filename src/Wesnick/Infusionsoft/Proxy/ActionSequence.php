@@ -32,6 +32,6 @@ class ActionSequence extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'TemplateName' => 'string', 'VisibleToTheseUsers' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'TemplateName' => 'string', 'VisibleToTheseUsers' => 'string');
 
 }

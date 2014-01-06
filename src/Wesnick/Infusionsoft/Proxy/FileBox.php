@@ -49,6 +49,6 @@ class FileBox extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'FileName' => 'string', 'Extension' => 'string', 'FileSize' => 'int', 'ContactId' => 'int', 'Public' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'FileName' => 'string', 'Extension' => 'string', 'FileSize' => 'int', 'ContactId' => 'int', 'Public' => 'string');
 
 }

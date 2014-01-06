@@ -61,6 +61,6 @@ class ProductOptValue extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ProductOptionId' => 'ProductOption', 'Label' => 'string', 'Sku' => 'string', 'IsDefault' => 'string', 'Name' => 'string', 'OptionIndex' => 'string', 'PriceAdjustment' => 'float');
+    protected static $propertyMap = array('Id' => 'int', 'ProductOptionId' => 'ProductOption', 'Label' => 'string', 'Sku' => 'string', 'IsDefault' => 'string', 'Name' => 'string', 'OptionIndex' => 'string', 'PriceAdjustment' => 'float');
 
 }

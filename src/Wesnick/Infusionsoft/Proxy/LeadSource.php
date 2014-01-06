@@ -80,6 +80,6 @@ class LeadSource extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'Name' => 'string', 'Description' => 'string', 'StartDate' => '\DateTime', 'EndDate' => '\DateTime', 'CostPerLead' => 'string', 'Vendor' => 'string', 'Medium' => 'string', 'Message' => 'string', 'LeadSourceCategoryId' => 'int', 'Status' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'Name' => 'string', 'Description' => 'string', 'StartDate' => '\DateTime', 'EndDate' => '\DateTime', 'CostPerLead' => 'string', 'Vendor' => 'string', 'Medium' => 'string', 'Message' => 'string', 'LeadSourceCategoryId' => 'int', 'Status' => 'string');
 
 }

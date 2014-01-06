@@ -178,6 +178,6 @@ class RecurringOrder extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ContactId' => 'Contact', 'OriginatingOrderId' => 'int', 'ProgramId' => 'int', 'SubscriptionPlanId' => 'int', 'ProductId' => 'Product', 'StartDate' => '\DateTime', 'EndDate' => '\DateTime', 'LastBillDate' => '\DateTime', 'NextBillDate' => '\DateTime', 'PaidThruDate' => '\DateTime', 'BillingCycle' => 'string', 'Frequency' => 'string', 'BillingAmt' => 'float', 'Status' => 'string', 'ReasonStopped' => 'string', 'AutoCharge' => 'string', 'CC1' => 'int', 'CC2' => 'int', 'NumDaysBetweenRetry' => 'string', 'MaxRetry' => 'string', 'MerchantAccountId' => 'int', 'AffiliateId' => 'int', 'PromoCode' => 'string', 'LeadAffiliateId' => 'int', 'Qty' => 'string', 'ShippingOptionId' => 'int');
+    protected static $propertyMap = array('Id' => 'int', 'ContactId' => 'Contact', 'OriginatingOrderId' => 'int', 'ProgramId' => 'int', 'SubscriptionPlanId' => 'int', 'ProductId' => 'Product', 'StartDate' => '\DateTime', 'EndDate' => '\DateTime', 'LastBillDate' => '\DateTime', 'NextBillDate' => '\DateTime', 'PaidThruDate' => '\DateTime', 'BillingCycle' => 'string', 'Frequency' => 'string', 'BillingAmt' => 'float', 'Status' => 'string', 'ReasonStopped' => 'string', 'AutoCharge' => 'string', 'CC1' => 'int', 'CC2' => 'int', 'NumDaysBetweenRetry' => 'string', 'MaxRetry' => 'string', 'MerchantAccountId' => 'int', 'AffiliateId' => 'int', 'PromoCode' => 'string', 'LeadAffiliateId' => 'int', 'Qty' => 'string', 'ShippingOptionId' => 'int');
 
 }

@@ -166,6 +166,6 @@ class User extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('City' => 'string', 'Email' => 'string', 'EmailAddress2' => 'string', 'EmailAddress3' => 'string', 'FirstName' => 'string', 'HTMLSignature' => 'string', 'Id' => 'int', 'LastName' => 'string', 'MiddleName' => 'string', 'Nickname' => 'string', 'Phone1' => 'string', 'Phone1Ext' => 'string', 'Phone1Type' => 'string', 'Phone2' => 'string', 'Phone2Ext' => 'string', 'Phone2Type' => 'string', 'PostalCode' => 'string', 'Signature' => 'string', 'SpouseName' => 'string', 'State' => 'string', 'StreetAddress1' => 'string', 'StreetAddress2' => 'string', 'Suffix' => 'string', 'Title' => 'string', 'ZipFour1' => 'string');
+    protected static $propertyMap = array('City' => 'string', 'Email' => 'string', 'EmailAddress2' => 'string', 'EmailAddress3' => 'string', 'FirstName' => 'string', 'HTMLSignature' => 'string', 'Id' => 'int', 'LastName' => 'string', 'MiddleName' => 'string', 'Nickname' => 'string', 'Phone1' => 'string', 'Phone1Ext' => 'string', 'Phone1Type' => 'string', 'Phone2' => 'string', 'Phone2Ext' => 'string', 'Phone2Type' => 'string', 'PostalCode' => 'string', 'Signature' => 'string', 'SpouseName' => 'string', 'State' => 'string', 'StreetAddress1' => 'string', 'StreetAddress2' => 'string', 'Suffix' => 'string', 'Title' => 'string', 'ZipFour1' => 'string');
 
 }

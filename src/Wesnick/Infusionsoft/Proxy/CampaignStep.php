@@ -44,6 +44,6 @@ class CampaignStep extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'CampaignId' => 'int', 'TemplateId' => 'int', 'StepStatus' => 'string', 'StepTitle' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'CampaignId' => 'int', 'TemplateId' => 'int', 'StepStatus' => 'string', 'StepTitle' => 'string');
 
 }

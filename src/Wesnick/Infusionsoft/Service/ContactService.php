@@ -12,9 +12,17 @@ class ContactService extends Proxy
 
     public function add(ProxyClass\Contact $contact)
     {
-        return $this->__call('add', array($contact->toArray()));
+        $result = $this->__call('add', array($contact->toInfusionsoftArray()));
+        $contact->Id = $result;
+        return $result;
     }
 
+
+    public function load($contactId, $selectedFields = array())
+    {
+        $result = $this->__call('load', array($contactId, $selectedFields));
+        return $result;
+    }
 
 
     /**

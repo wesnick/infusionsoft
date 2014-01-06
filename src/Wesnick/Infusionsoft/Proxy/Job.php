@@ -152,6 +152,6 @@ class Job extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'JobTitle' => 'string', 'ContactId' => 'Contact', 'StartDate' => '\DateTime', 'DueDate' => '\DateTime', 'JobNotes' => 'string', 'ProductId' => 'Product', 'JobStatus' => 'string', 'DateCreated' => '\DateTime', 'JobRecurringId' => 'JobRecurring', 'OrderType' => 'string', 'OrderStatus' => 'string', 'ShipFirstName' => 'string', 'ShipMiddleName' => 'string', 'ShipLastName' => 'string', 'ShipCompany' => 'string', 'ShipPhone' => 'string', 'ShipStreet1' => 'string', 'ShipStreet2' => 'string', 'ShipCity' => 'string', 'ShipState' => 'string', 'ShipZip' => 'string', 'ShipCountry' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'JobTitle' => 'string', 'ContactId' => 'Contact', 'StartDate' => '\DateTime', 'DueDate' => '\DateTime', 'JobNotes' => 'string', 'ProductId' => 'Product', 'JobStatus' => 'string', 'DateCreated' => '\DateTime', 'JobRecurringId' => 'JobRecurring', 'OrderType' => 'string', 'OrderStatus' => 'string', 'ShipFirstName' => 'string', 'ShipMiddleName' => 'string', 'ShipLastName' => 'string', 'ShipCompany' => 'string', 'ShipPhone' => 'string', 'ShipStreet1' => 'string', 'ShipStreet2' => 'string', 'ShipCity' => 'string', 'ShipState' => 'string', 'ShipZip' => 'string', 'ShipCountry' => 'string');
 
 }

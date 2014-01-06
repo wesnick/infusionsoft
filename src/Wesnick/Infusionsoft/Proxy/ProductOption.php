@@ -97,6 +97,6 @@ class ProductOption extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ProductId' => 'Product', 'Label' => 'string', 'IsRequired' => 'string', 'Order' => 'string', 'Name' => 'string', 'MaxChars' => 'string', 'CanEndWith' => 'string', 'MinChars' => 'string', 'AllowSpaces' => 'string', 'TextMessage' => 'string', 'OptionType' => 'string', 'CanContain' => 'string', 'CanStartWith' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'ProductId' => 'Product', 'Label' => 'string', 'IsRequired' => 'string', 'Order' => 'string', 'Name' => 'string', 'MaxChars' => 'string', 'CanEndWith' => 'string', 'MinChars' => 'string', 'AllowSpaces' => 'string', 'TextMessage' => 'string', 'OptionType' => 'string', 'CanContain' => 'string', 'CanStartWith' => 'string');
 
 }

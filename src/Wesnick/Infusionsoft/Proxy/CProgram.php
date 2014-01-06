@@ -112,6 +112,6 @@ class CProgram extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ProgramName' => 'string', 'DefaultPrice' => 'float', 'DefaultCycle' => 'string', 'DefaultFrequency' => 'string', 'Sku' => 'string', 'ShortDescription' => 'string', 'BillingType' => 'string', 'Description' => 'string', 'HideInStore' => 'string', 'Status' => 'string', 'Active' => 'bool', 'LargeImage' => 'string', 'Taxable' => 'string', 'Family' => 'string', 'ProductId' => 'int');
+    protected static $propertyMap = array('Id' => 'int', 'ProgramName' => 'string', 'DefaultPrice' => 'float', 'DefaultCycle' => 'string', 'DefaultFrequency' => 'string', 'Sku' => 'string', 'ShortDescription' => 'string', 'BillingType' => 'string', 'Description' => 'string', 'HideInStore' => 'string', 'Status' => 'string', 'Active' => 'bool', 'LargeImage' => 'string', 'Taxable' => 'string', 'Family' => 'string', 'ProductId' => 'int');
 
 }

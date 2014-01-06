@@ -38,6 +38,6 @@ class Stage extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'StageName' => 'string', 'StageOrder' => 'string', 'TargetNumDays' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'StageName' => 'string', 'StageOrder' => 'string', 'TargetNumDays' => 'string');
 
 }

@@ -127,6 +127,6 @@ class ContactAction extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ContactId' => 'Contact', 'OpportunityId' => 'Opportunity', 'ActionType' => 'string', 'ActionDescription' => 'string', 'CreationDate' => '\DateTime', 'CreationNotes' => 'string', 'CompletionDate' => '\DateTime', 'ActionDate' => '\DateTime', 'EndDate' => '\DateTime', 'PopupDate' => '\DateTime', 'UserID' => 'User', 'Accepted' => 'string', 'CreatedBy' => 'User', 'LastUpdated' => '\DateTime', 'LastUpdatedBy' => 'User', 'Priority' => 'string', 'IsAppointment' => 'string', 'ObjectType' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'ContactId' => 'Contact', 'OpportunityId' => 'Opportunity', 'ActionType' => 'string', 'ActionDescription' => 'string', 'CreationDate' => '\DateTime', 'CreationNotes' => 'string', 'CompletionDate' => '\DateTime', 'ActionDate' => '\DateTime', 'EndDate' => '\DateTime', 'PopupDate' => '\DateTime', 'UserID' => 'User', 'Accepted' => 'string', 'CreatedBy' => 'User', 'LastUpdated' => '\DateTime', 'LastUpdatedBy' => 'User', 'Priority' => 'string', 'IsAppointment' => 'string', 'ObjectType' => 'string');
 
 }

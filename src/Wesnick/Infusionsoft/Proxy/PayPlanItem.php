@@ -49,6 +49,6 @@ class PayPlanItem extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'PayPlanId' => 'PayPlan', 'DateDue' => '\DateTime', 'AmtDue' => 'float', 'Status' => 'string', 'AmtPaid' => 'float');
+    protected static $propertyMap = array('Id' => 'int', 'PayPlanId' => 'PayPlan', 'DateDue' => '\DateTime', 'AmtDue' => 'float', 'Status' => 'string', 'AmtPaid' => 'float');
 
 }

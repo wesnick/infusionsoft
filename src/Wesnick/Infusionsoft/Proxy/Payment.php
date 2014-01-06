@@ -85,6 +85,6 @@ class Payment extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'PayDate' => '\DateTime', 'UserId' => 'int', 'PayAmt' => 'float', 'PayType' => 'string', 'ContactId' => 'Contact', 'PayNote' => 'string', 'InvoiceId' => 'Invoice', 'RefundId' => 'int', 'ChargeId' => 'CCharge', 'Commission' => 'string', 'Synced' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'PayDate' => '\DateTime', 'UserId' => 'int', 'PayAmt' => 'float', 'PayType' => 'string', 'ContactId' => 'Contact', 'PayNote' => 'string', 'InvoiceId' => 'Invoice', 'RefundId' => 'int', 'ChargeId' => 'CCharge', 'Commission' => 'string', 'Synced' => 'string');
 
 }

@@ -32,6 +32,6 @@ class LeadSourceCategory extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'Name' => 'string', 'Description' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'Name' => 'string', 'Description' => 'string');
 
 }

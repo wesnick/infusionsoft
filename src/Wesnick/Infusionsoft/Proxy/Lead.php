@@ -129,6 +129,6 @@ class Lead extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'OpportunityTitle' => 'string', 'ContactID' => 'int', 'AffiliateId' => 'int', 'UserID' => 'int', 'StageID' => 'int', 'StatusID' => 'int', 'Leadsource' => 'string', 'Objection' => 'string', 'ProjectedRevenueLow' => 'float', 'ProjectedRevenueHigh' => 'float', 'OpportunityNotes' => 'string', 'DateCreated' => '\DateTime', 'LastUpdated' => '\DateTime', 'LastUpdatedBy' => 'int', 'CreatedBy' => 'int', 'EstimatedCloseDate' => '\DateTime', 'NextActionDate' => '\DateTime', 'NextActionNotes' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'OpportunityTitle' => 'string', 'ContactID' => 'int', 'AffiliateId' => 'int', 'UserID' => 'int', 'StageID' => 'int', 'StatusID' => 'int', 'Leadsource' => 'string', 'Objection' => 'string', 'ProjectedRevenueLow' => 'float', 'ProjectedRevenueHigh' => 'float', 'OpportunityNotes' => 'string', 'DateCreated' => '\DateTime', 'LastUpdated' => '\DateTime', 'LastUpdatedBy' => 'int', 'CreatedBy' => 'int', 'EstimatedCloseDate' => '\DateTime', 'NextActionDate' => '\DateTime', 'NextActionNotes' => 'string');
 
 }

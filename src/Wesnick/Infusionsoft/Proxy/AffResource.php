@@ -61,6 +61,6 @@ class AffResource extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'Title' => 'string', 'ResourceType' => 'string', 'ResourceOrder' => 'string', 'ResourceHTML' => 'string', 'ResourceHREF' => 'string', 'Notes' => 'string', 'ProgramIds' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'Title' => 'string', 'ResourceType' => 'string', 'ResourceOrder' => 'string', 'ResourceHTML' => 'string', 'ResourceHREF' => 'string', 'Notes' => 'string', 'ProgramIds' => 'string');
 
 }

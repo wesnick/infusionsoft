@@ -79,6 +79,6 @@ class OrderItem extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'OrderId' => 'Order', 'ProductId' => 'Product', 'SubscriptionPlanId' => 'int', 'ItemName' => 'string', 'Qty' => 'string', 'CPU' => 'float', 'PPU' => 'float', 'ItemDescription' => 'string', 'ItemType' => 'string', 'Notes' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'OrderId' => 'Order', 'ProductId' => 'Product', 'SubscriptionPlanId' => 'int', 'ItemName' => 'string', 'Qty' => 'string', 'CPU' => 'float', 'PPU' => 'float', 'ItemDescription' => 'string', 'ItemType' => 'string', 'Notes' => 'string');
 
 }

@@ -31,6 +31,6 @@ class DataFormGroup extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'TabId' => 'int', 'Name' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'TabId' => 'int', 'Name' => 'string');
 
 }

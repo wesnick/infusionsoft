@@ -32,6 +32,6 @@ class ContactGroupCategory extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'CategoryName' => 'string', 'CategoryDescription' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'CategoryName' => 'string', 'CategoryDescription' => 'string');
 
 }

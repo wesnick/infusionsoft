@@ -31,6 +31,6 @@ class DataFormTab extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'FormId' => 'int', 'TabName' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'FormId' => 'int', 'TabName' => 'string');
 
 }

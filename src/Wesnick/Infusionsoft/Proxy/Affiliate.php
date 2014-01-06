@@ -109,6 +109,6 @@ class Affiliate extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ContactId' => 'Contact', 'ParentId' => 'Affiliate', 'LeadAmt' => 'float', 'LeadPercent' => 'float', 'SaleAmt' => 'float', 'SalePercent' => 'float', 'PayoutType' => 'string', 'DefCommissionType' => 'string', 'Status' => 'string', 'AffName' => 'string', 'Password' => 'string', 'AffCode' => 'string', 'NotifyLead' => 'string', 'NotifySale' => 'string', 'LeadCookieFor' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'ContactId' => 'Contact', 'ParentId' => 'Affiliate', 'LeadAmt' => 'float', 'LeadPercent' => 'float', 'SaleAmt' => 'float', 'SalePercent' => 'float', 'PayoutType' => 'string', 'DefCommissionType' => 'string', 'Status' => 'string', 'AffName' => 'string', 'Password' => 'string', 'AffCode' => 'string', 'NotifyLead' => 'string', 'NotifySale' => 'string', 'LeadCookieFor' => 'string');
 
 }

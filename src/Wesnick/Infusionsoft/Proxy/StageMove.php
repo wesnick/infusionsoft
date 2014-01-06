@@ -68,6 +68,6 @@ class StageMove extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'OpportunityId' => 'int', 'MoveDate' => '\DateTime', 'MoveToStage' => 'int', 'MoveFromStage' => 'int', 'PrevStageMoveDate' => '\DateTime', 'CreatedBy' => 'int', 'DateCreated' => '\DateTime', 'UserId' => 'int');
+    protected static $propertyMap = array('Id' => 'int', 'OpportunityId' => 'int', 'MoveDate' => '\DateTime', 'MoveToStage' => 'int', 'MoveFromStage' => 'int', 'PrevStageMoveDate' => '\DateTime', 'CreatedBy' => 'int', 'DateCreated' => '\DateTime', 'UserId' => 'int');
 
 }

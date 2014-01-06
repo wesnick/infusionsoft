@@ -49,6 +49,6 @@ class Expense extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ContactId' => 'int', 'ExpenseType' => 'string', 'TypeId' => 'int', 'ExpenseAmt' => 'float', 'DateIncurred' => '\DateTime');
+    protected static $propertyMap = array('Id' => 'int', 'ContactId' => 'int', 'ExpenseType' => 'string', 'TypeId' => 'int', 'ExpenseAmt' => 'float', 'DateIncurred' => '\DateTime');
 
 }

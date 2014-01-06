@@ -31,6 +31,6 @@ class UserGroup extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'Name' => 'string', 'OwnerId' => 'int');
+    protected static $propertyMap = array('Id' => 'int', 'Name' => 'string', 'OwnerId' => 'int');
 
 }

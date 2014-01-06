@@ -38,6 +38,6 @@ class Status extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'StatusName' => 'string', 'StatusOrder' => 'string', 'TargetNumDays' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'StatusName' => 'string', 'StatusOrder' => 'string', 'TargetNumDays' => 'string');
 
 }

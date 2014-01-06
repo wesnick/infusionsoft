@@ -8,7 +8,7 @@ interface InfusionsoftObject
 {
     public function toInfusionsoftArray();
 
-    public function getInfusionsoftFields();
+    public static function getInfusionsoftFields();
 
-    public function getInfusionsoftPropertyMap();
+    public static function getInfusionsoftPropertyMap();
 }

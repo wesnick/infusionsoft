@@ -38,6 +38,6 @@ class Template extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'PieceType' => 'string', 'PieceTitle' => 'string', 'Categories' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'PieceType' => 'string', 'PieceTitle' => 'string', 'Categories' => 'string');
 
 }

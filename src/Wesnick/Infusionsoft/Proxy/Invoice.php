@@ -122,6 +122,6 @@ class Invoice extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ContactId' => 'Contact', 'JobId' => 'Job', 'DateCreated' => '\DateTime', 'InvoiceTotal' => 'float', 'TotalPaid' => 'float', 'TotalDue' => 'float', 'PayStatus' => 'string', 'CreditStatus' => 'string', 'RefundStatus' => 'string', 'PayPlanStatus' => 'string', 'AffiliateId' => 'Affiliate', 'LeadAffiliateId' => 'Affiliate', 'PromoCode' => 'string', 'InvoiceType' => 'string', 'Description' => 'string', 'ProductSold' => 'string', 'Synced' => 'string');
+    protected static $propertyMap = array('Id' => 'int', 'ContactId' => 'Contact', 'JobId' => 'Job', 'DateCreated' => '\DateTime', 'InvoiceTotal' => 'float', 'TotalPaid' => 'float', 'TotalDue' => 'float', 'PayStatus' => 'string', 'CreditStatus' => 'string', 'RefundStatus' => 'string', 'PayPlanStatus' => 'string', 'AffiliateId' => 'Affiliate', 'LeadAffiliateId' => 'Affiliate', 'PromoCode' => 'string', 'InvoiceType' => 'string', 'Description' => 'string', 'ProductSold' => 'string', 'Synced' => 'string');
 
 }

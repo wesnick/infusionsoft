@@ -7,6 +7,8 @@ namespace Wesnick\Infusionsoft\Service;
 
 
 
+use Faker\Generator;
+
 class ContactServiceTest extends \PHPUnit_Framework_TestCase
 {
 

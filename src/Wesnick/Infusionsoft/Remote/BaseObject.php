@@ -13,15 +13,16 @@ abstract class BaseObject implements InfusionsoftObject
         return array_filter($localVars);
     }
 
-    public function getInfusionsoftFields()
+    public static function getInfusionsoftFields()
     {
-        return array_keys($this->getInfusionsoftPropertyMap());
+        return array_keys(static::getInfusionsoftPropertyMap());
     }
 
-    public function getInfusionsoftPropertyMap()
+    public static function getInfusionsoftPropertyMap()
     {
-        if (property_exists($this, 'propertyMap')) {
-            return $this->propertyMap;
+
+        if (property_exists(get_called_class(), 'propertyMap')) {
+            return static::$propertyMap;
         }
         return array();
     }

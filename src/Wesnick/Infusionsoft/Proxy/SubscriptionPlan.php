@@ -63,6 +63,6 @@ class SubscriptionPlan extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'ProductId' => 'int', 'Cycle' => 'string', 'Frequency' => 'string', 'PreAuthorizeAmount' => 'float', 'Prorate' => 'bool', 'Active' => 'bool', 'PlanPrice' => 'float');
+    protected static $propertyMap = array('Id' => 'int', 'ProductId' => 'int', 'Cycle' => 'string', 'Frequency' => 'string', 'PreAuthorizeAmount' => 'float', 'Prorate' => 'bool', 'Active' => 'bool', 'PlanPrice' => 'float');
 
 }

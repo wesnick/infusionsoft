@@ -61,6 +61,6 @@ class LeadSourceRecurringExpense extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'LeadSourceId' => 'int', 'Title' => 'string', 'Notes' => 'string', 'Amount' => 'float', 'StartDate' => '\DateTime', 'EndDate' => '\DateTime', 'NextExpenseDate' => '\DateTime');
+    protected static $propertyMap = array('Id' => 'int', 'LeadSourceId' => 'int', 'Title' => 'string', 'Notes' => 'string', 'Amount' => 'float', 'StartDate' => '\DateTime', 'EndDate' => '\DateTime', 'NextExpenseDate' => '\DateTime');
 
 }

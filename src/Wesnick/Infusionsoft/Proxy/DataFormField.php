@@ -67,6 +67,6 @@ class DataFormField extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('DataType' => 'string', 'Id' => 'int', 'FormId' => 'int', 'GroupId' => 'DataFormGroup', 'Name' => 'string', 'Label' => 'string', 'DefaultValue' => 'string', 'Values' => 'string', 'ListRows' => 'string');
+    protected static $propertyMap = array('DataType' => 'string', 'Id' => 'int', 'FormId' => 'int', 'GroupId' => 'DataFormGroup', 'Name' => 'string', 'Label' => 'string', 'DefaultValue' => 'string', 'Values' => 'string', 'ListRows' => 'string');
 
 }

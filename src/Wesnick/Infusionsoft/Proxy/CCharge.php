@@ -61,6 +61,6 @@ class CCharge extends BaseObject
     /**
      * @var array $propertyMap
      */
-    protected $propertyMap = array('Id' => 'int', 'CCId' => 'int', 'PaymentId' => 'int', 'MerchantId' => 'int', 'OrderNum' => 'string', 'RefNum' => 'string', 'ApprCode' => 'string', 'Amt' => 'float');
+    protected static $propertyMap = array('Id' => 'int', 'CCId' => 'int', 'PaymentId' => 'int', 'MerchantId' => 'int', 'OrderNum' => 'string', 'RefNum' => 'string', 'ApprCode' => 'string', 'Amt' => 'float');
 
 }
