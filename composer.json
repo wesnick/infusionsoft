@@ -17,7 +17,7 @@
     ],
 
     "require": {
-        "lstrojny/fxmlrpc": "0.8.3"
+        "lstrojny/fxmlrpc": "~0.9"
     },
     "require-dev": {
         "symfony/console": "~2.3",

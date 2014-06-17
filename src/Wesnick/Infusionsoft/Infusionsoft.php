@@ -6,6 +6,7 @@ namespace Wesnick\Infusionsoft;
 use fXmlRpc\ClientInterface;
 use Wesnick\Infusionsoft\Exception\InfusionsoftException;
 use Wesnick\Infusionsoft\Service\ContactService;
+use Wesnick\Infusionsoft\Service\DataService;
 
 class Infusionsoft
 {
@@ -38,7 +39,7 @@ class Infusionsoft
 //        'affiliate'         => 'AffiliateService',
 //        'affiliate_program' => 'AffiliateProgramService',
         'ContactService'           => "Wesnick\\Infusionsoft\\Service\\ContactService",
-//        'data'              => 'DataService',
+        'DataService'              => 'Wesnick\\Infusionsoft\\Service\\DataService',
 //        'discount'          => 'DiscountService',
 //        'email'             => 'EmailService',
 //        'file'              => 'FileService',
@@ -100,6 +101,14 @@ class Infusionsoft
         return $this->getService('ContactService');
     }
 
+    /**
+     * @return DataService
+     */
+    public function getDataService()
+    {
+        return $this->getService('DataService');
+    }
+
 
     public function getService($serviceName)
     {
@@ -107,7 +116,7 @@ class Infusionsoft
             throw new \InvalidArgumentException(sprintf("Service Name %s Is not Defined", $serviceName));
         }
 
-        if (!isset($this->proxies[$serviceName])) {
+        if ( ! isset($this->proxies[$serviceName])) {
             $class = static::$proxyMap[$serviceName];
             $this->proxies[$serviceName] = new $class($this->client, '.', $serviceName);
         }

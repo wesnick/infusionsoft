@@ -163,6 +163,12 @@ class InfusionsoftClassBuilderCommand extends Command
         $propertyMap = array();
 
         foreach ($rows['fields'] as $fieldName => $field) {
+
+            // Don't include dot delimited properties
+            if (strpos($fieldName, ".") !== false) {
+                continue;
+            }
+
             $propertyBuilder = $this->processProperty($fieldName, $field);
             $propertyMap[] = "'" . $propertyBuilder->getName() . "' => '" . $propertyBuilder->getType() . "'";
             $classBuilder->addProperty($propertyBuilder);
