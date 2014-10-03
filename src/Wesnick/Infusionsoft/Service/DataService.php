@@ -18,6 +18,15 @@ class DataService extends Proxy
         return $this->__call('query', array('User', $records, $page, $query, $fields));
     }
 
+    public function queryUserGroup($records = 100, $page = 0, $query = array('Id' => '%'), $fields = array())
+    {
+        if (empty($fields)) {
+            $fields = ProxyClass\UserGroup::getInfusionsoftFields();
+        }
+
+        return $this->__call('query', array('UserGroup', $records, $page, $query, $fields));
+    }
+
     public function queryLeadSource($records = 100, $page = 0, $query = array('Id' => '%'), $fields = array())
     {
 
@@ -37,6 +46,17 @@ class DataService extends Proxy
         return $this->__call('query', array('ContactGroupCategory', $records, $page, $query, $fields));
     }
 
+    public function queryLeadSourceCategory($records = 100, $page = 0, $query = array('Id' => '%'), $fields = array())
+    {
+
+        if (empty($fields)) {
+            $fields = ProxyClass\LeadSourceCategory::getInfusionsoftFields();
+        }
+
+        return $this->__call('query', array('LeadSourceCategory', $records, $page, $query, $fields));
+
+    }
+
     public function queryGroup($records = 100, $page = 0, $query = array('Id' => '%'), $fields = array())
     {
 
@@ -45,6 +65,17 @@ class DataService extends Proxy
         }
 
         return $this->__call('query', array('ContactGroup', $records, $page, $query, $fields));
+
+    }
+
+    public function queryContactAction($records = 100, $page = 0, $query = array('Id' => '%'), $fields = array())
+    {
+
+        if (empty($fields)) {
+            $fields = ProxyClass\ContactAction::getInfusionsoftFields();
+        }
+
+        return $this->__call('query', array('ContactAction', $records, $page, $query, $fields));
 
     }
 
